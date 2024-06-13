@@ -9,6 +9,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { HeroPageComponent } from './pages/hero-page/hero-page.component';
 import { MaterialModule } from '../material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     LayoutPageComponent,
     ListPageComponent,
     NewPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
